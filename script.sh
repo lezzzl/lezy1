@@ -20,7 +20,7 @@ echo "Файлы на входе"
 echo "$files"
 echo ""
 
-directories=$(find "$dir1" -maxdepth 1 -type d)
+directories=$(find "$dir1" -type d)
 echo "Папки на входе"
 echo "$directories"
 echo ""
